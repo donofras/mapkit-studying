@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93F7477D28CF23C200C626F3 /* MapKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7477C28CF23C200C626F3 /* MapKitApp.swift */; };
-		93F7477F28CF23C200C626F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7477E28CF23C200C626F3 /* ContentView.swift */; };
-		93F7478128CF23C300C626F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F7478028CF23C300C626F3 /* Assets.xcassets */; };
-		93F7478428CF23C300C626F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F7478328CF23C300C626F3 /* Preview Assets.xcassets */; };
+		93E4E60D28CF8154003DF8B0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4E60C28CF8154003DF8B0 /* MapView.swift */; };
+		93E4E60F28CF8190003DF8B0 /* MKViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4E60E28CF8190003DF8B0 /* MKViewModel.swift */; };
+		93E4E61128CF81BC003DF8B0 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4E61028CF81BC003DF8B0 /* LocationModel.swift */; };
+		93F7479728CF24B100C626F3 /* Studying_MapKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7479628CF24B100C626F3 /* Studying_MapKitApp.swift */; };
+		93F7479928CF24B100C626F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7479828CF24B100C626F3 /* ContentView.swift */; };
+		93F7479B28CF24B200C626F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F7479A28CF24B200C626F3 /* Assets.xcassets */; };
+		93F7479E28CF24B200C626F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F7479D28CF24B200C626F3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		93F7477928CF23C200C626F3 /* MapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		93F7477C28CF23C200C626F3 /* MapKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitApp.swift; sourceTree = "<group>"; };
-		93F7477E28CF23C200C626F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		93F7478028CF23C300C626F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		93F7478328CF23C300C626F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93E4E60C28CF8154003DF8B0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		93E4E60E28CF8190003DF8B0 /* MKViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKViewModel.swift; sourceTree = "<group>"; };
+		93E4E61028CF81BC003DF8B0 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		93F7479328CF24B100C626F3 /* Studying-MapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Studying-MapKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F7479628CF24B100C626F3 /* Studying_MapKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Studying_MapKitApp.swift; sourceTree = "<group>"; };
+		93F7479828CF24B100C626F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93F7479A28CF24B200C626F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93F7479D28CF24B200C626F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		93F7477628CF23C200C626F3 /* Frameworks */ = {
+		93F7479028CF24B100C626F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +38,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		93F7477028CF23C200C626F3 = {
+		93F7478A28CF24B100C626F3 = {
 			isa = PBXGroup;
 			children = (
-				93F7477B28CF23C200C626F3 /* MapKit */,
-				93F7477A28CF23C200C626F3 /* Products */,
+				93F7479528CF24B100C626F3 /* Studying-MapKit */,
+				93F7479428CF24B100C626F3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		93F7477A28CF23C200C626F3 /* Products */ = {
+		93F7479428CF24B100C626F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93F7477928CF23C200C626F3 /* MapKit.app */,
+				93F7479328CF24B100C626F3 /* Studying-MapKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93F7477B28CF23C200C626F3 /* MapKit */ = {
+		93F7479528CF24B100C626F3 /* Studying-MapKit */ = {
 			isa = PBXGroup;
 			children = (
-				93F7477C28CF23C200C626F3 /* MapKitApp.swift */,
-				93F7477E28CF23C200C626F3 /* ContentView.swift */,
-				93F7478028CF23C300C626F3 /* Assets.xcassets */,
-				93F7478228CF23C300C626F3 /* Preview Content */,
+				93F7479628CF24B100C626F3 /* Studying_MapKitApp.swift */,
+				93F7479828CF24B100C626F3 /* ContentView.swift */,
+				93E4E61028CF81BC003DF8B0 /* LocationModel.swift */,
+				93E4E60E28CF8190003DF8B0 /* MKViewModel.swift */,
+				93E4E60C28CF8154003DF8B0 /* MapView.swift */,
+				93F7479A28CF24B200C626F3 /* Assets.xcassets */,
+				93F7479C28CF24B200C626F3 /* Preview Content */,
 			);
-			path = MapKit;
+			path = "Studying-MapKit";
 			sourceTree = "<group>";
 		};
-		93F7478228CF23C300C626F3 /* Preview Content */ = {
+		93F7479C28CF24B200C626F3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				93F7478328CF23C300C626F3 /* Preview Assets.xcassets */,
+				93F7479D28CF24B200C626F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +79,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93F7477828CF23C200C626F3 /* MapKit */ = {
+		93F7479228CF24B100C626F3 /* Studying-MapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93F7478728CF23C300C626F3 /* Build configuration list for PBXNativeTarget "MapKit" */;
+			buildConfigurationList = 93F747A128CF24B200C626F3 /* Build configuration list for PBXNativeTarget "Studying-MapKit" */;
 			buildPhases = (
-				93F7477528CF23C200C626F3 /* Sources */,
-				93F7477628CF23C200C626F3 /* Frameworks */,
-				93F7477728CF23C200C626F3 /* Resources */,
+				93F7478F28CF24B100C626F3 /* Sources */,
+				93F7479028CF24B100C626F3 /* Frameworks */,
+				93F7479128CF24B100C626F3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MapKit;
-			productName = MapKit;
-			productReference = 93F7477928CF23C200C626F3 /* MapKit.app */;
+			name = "Studying-MapKit";
+			productName = "Studying-MapKit";
+			productReference = 93F7479328CF24B100C626F3 /* Studying-MapKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		93F7477128CF23C200C626F3 /* Project object */ = {
+		93F7478B28CF24B100C626F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					93F7477828CF23C200C626F3 = {
+					93F7479228CF24B100C626F3 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 93F7477428CF23C200C626F3 /* Build configuration list for PBXProject "MapKit" */;
+			buildConfigurationList = 93F7478E28CF24B100C626F3 /* Build configuration list for PBXProject "Studying-MapKit" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +119,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 93F7477028CF23C200C626F3;
-			productRefGroup = 93F7477A28CF23C200C626F3 /* Products */;
+			mainGroup = 93F7478A28CF24B100C626F3;
+			productRefGroup = 93F7479428CF24B100C626F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93F7477828CF23C200C626F3 /* MapKit */,
+				93F7479228CF24B100C626F3 /* Studying-MapKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		93F7477728CF23C200C626F3 /* Resources */ = {
+		93F7479128CF24B100C626F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F7478428CF23C300C626F3 /* Preview Assets.xcassets in Resources */,
-				93F7478128CF23C300C626F3 /* Assets.xcassets in Resources */,
+				93F7479E28CF24B200C626F3 /* Preview Assets.xcassets in Resources */,
+				93F7479B28CF24B200C626F3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		93F7477528CF23C200C626F3 /* Sources */ = {
+		93F7478F28CF24B100C626F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F7477F28CF23C200C626F3 /* ContentView.swift in Sources */,
-				93F7477D28CF23C200C626F3 /* MapKitApp.swift in Sources */,
+				93E4E60F28CF8190003DF8B0 /* MKViewModel.swift in Sources */,
+				93F7479928CF24B100C626F3 /* ContentView.swift in Sources */,
+				93E4E60D28CF8154003DF8B0 /* MapView.swift in Sources */,
+				93E4E61128CF81BC003DF8B0 /* LocationModel.swift in Sources */,
+				93F7479728CF24B100C626F3 /* Studying_MapKitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		93F7478528CF23C300C626F3 /* Debug */ = {
+		93F7479F28CF24B200C626F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		93F7478628CF23C300C626F3 /* Release */ = {
+		93F747A028CF24B200C626F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,17 +271,19 @@
 			};
 			name = Release;
 		};
-		93F7478828CF23C300C626F3 /* Debug */ = {
+		93F747A228CF24B200C626F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MapKit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Studying-MapKit/Preview Content\"";
 				DEVELOPMENT_TEAM = Q8KS89WWB6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to get your location to show your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to get your location to show your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.donofras.MapKit;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donofras.Studying-MapKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -288,17 +302,19 @@
 			};
 			name = Debug;
 		};
-		93F7478928CF23C300C626F3 /* Release */ = {
+		93F747A328CF24B200C626F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MapKit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Studying-MapKit/Preview Content\"";
 				DEVELOPMENT_TEAM = Q8KS89WWB6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to get your location to show your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to get your location to show your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.donofras.MapKit;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donofras.Studying-MapKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,25 +336,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93F7477428CF23C200C626F3 /* Build configuration list for PBXProject "MapKit" */ = {
+		93F7478E28CF24B100C626F3 /* Build configuration list for PBXProject "Studying-MapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93F7478528CF23C300C626F3 /* Debug */,
-				93F7478628CF23C300C626F3 /* Release */,
+				93F7479F28CF24B200C626F3 /* Debug */,
+				93F747A028CF24B200C626F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93F7478728CF23C300C626F3 /* Build configuration list for PBXNativeTarget "MapKit" */ = {
+		93F747A128CF24B200C626F3 /* Build configuration list for PBXNativeTarget "Studying-MapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93F7478828CF23C300C626F3 /* Debug */,
-				93F7478928CF23C300C626F3 /* Release */,
+				93F747A228CF24B200C626F3 /* Debug */,
+				93F747A328CF24B200C626F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 93F7477128CF23C200C626F3 /* Project object */;
+	rootObject = 93F7478B28CF24B100C626F3 /* Project object */;
 }
