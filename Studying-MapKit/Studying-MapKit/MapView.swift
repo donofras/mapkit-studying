@@ -27,6 +27,9 @@ struct MapView: View {
                             .frame(width: 30, height: 30)
                             .background(.red)
                             .clipShape(Circle())
+                            .onTapGesture {
+                                viewModel.selectedLocation = location
+                            }
                     }
                 }
                 .ignoresSafeArea()

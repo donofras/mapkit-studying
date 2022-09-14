@@ -30,6 +30,7 @@ final class MKViewModel: ObservableObject {
     @Published var interactionModes:  MapInteractionModes = .all
     
     @Published var showAddLocation: Bool = false
+    @Published var selectedLocation: Location?
     
     @Published var  locations = [
         Location(name: "Stephen the Great Monument", coordinate: CLLocationCoordinate2D(latitude: 47.02562, longitude: 28.83033)),
